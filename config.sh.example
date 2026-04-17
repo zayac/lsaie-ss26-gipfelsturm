@@ -1,0 +1,5 @@
+# Copy this file to config.sh and fill in your values.
+# config.sh is git-ignored so your personal paths are never committed.
+export WORKDIR="/iopsstor/scratch/cscs/your_cscs_account/gipfelsturm"
+export ACCOUNT="lsaie-ss26"
+export WANDB_API_KEY=""
