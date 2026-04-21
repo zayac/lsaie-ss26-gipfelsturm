@@ -2,7 +2,7 @@
 #
 # Usage: ./launch.sh <mode> <model_size> [steps] [nodes]
 #
-# Modes:     throughput  (50 steps, no logging)
+# Modes:     throughput  (50 steps, with W&B)
 #            train       (N steps, with W&B and Tensorboard)
 #
 # Sizes:     125m, 350m, 760m, 1.5b, 3b, 8b

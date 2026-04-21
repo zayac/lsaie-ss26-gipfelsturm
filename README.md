@@ -30,7 +30,7 @@ Achieve the highest tokens/sec/GPU for a given model size on up to 8 nodes (32 G
 
 ```bash
 cp config.sh.example config.sh
-# Edit config.sh: set WORKDIR (your scratch directory), ACCOUNT (your SLURM account), and WANDB_API_KEY (optional)
+# Edit config.sh: set WORKDIR (your scratch directory), SBATCH_ACCOUNT (your SLURM account), and WANDB_API_KEY (optional)
 source config.sh
 ```
 
